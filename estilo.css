@@ -1,0 +1,248 @@
+html,
+body{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: white;
+    height: 80px;
+   align-items: center;
+   display: flex;
+   justify-content: flex-end;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
+.ulheader{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+a:hover {
+    color:rgb(96, 133, 202)
+
+}
+a:active {
+    box-shadow: 0px 0px 5px 1px black;
+    border-radius: 20px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+nav{
+margin: 50px;
+justify-content: flex-end;
+}
+.botonuno{
+    border-radius: 5px;
+    border: 2px solid #2a6186;
+    color: black;
+    background-color: #4c9791;
+    border-radius: 6px;
+    width: 180px;
+    margin: 100;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+border: none;
+}
+.botonuno:hover {
+    background-color: #88beba;
+    color: white;
+}
+/*Hola yo soy*/
+.holasoy{
+    font-family: 'Heebo', sans-serif;
+    font-size: 45px;
+    color: black;
+}
+.camila{
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(96, 133, 202);
+    font-size: 80px;
+}
+.descripcion{
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 25px;
+}
+.botondos{
+    border-radius: 5px;
+    border: 2px solid #2d6b94;
+    color: black;
+    background-color: rgb(96, 134, 184);
+    border-radius: 6px;
+    width: 180px;
+    margin: 100;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    border: none;
+}
+.botondos:hover{
+    background-color: rgb(150, 189, 240);
+    color: white;
+}
+.seccionuno{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 100px;
+}
+.imagenselfie{
+    width: 350px;
+    height: 350px;
+}
+.contenedoruno{
+    text-align: center;
+}
+/*Mis conocimientos*/
+.segundaseccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(246, 243, 243);
+    padding-bottom: 100px;
+}
+.divconocimientos{
+    text-align: center;
+}
+.segundah2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.primerlorem{
+    font-size: 23px;
+    width: 500px
+}
+button:hover{
+    color: beige;
+}
+.contenedoruno{
+    text-align: start;
+}
+.imagenicono{
+    width: 80px;
+    height: 80px;
+}
+
+.primerlorem{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    width: 500px;
+}
+.iconosconocimientos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 600px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 2px solid #4c9791;
+    border-radius: 8px;
+    margin: 10px;
+ }
+ .card:hover {
+     border-color:  #42ccbe;
+     color: #42ccbe;
+
+ }
+ .pcard{
+     font-weight: bold;
+ }
+.seccionsobremi{
+    width: 100%;
+    height: 600px;
+    background-color: #4c9791;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.parrafosobremi{
+    margin: 100px;
+    margin-left: 150;
+    margin-right: 150px;
+    font-size: 23px;
+}
+.h2sobremi{
+    font-size: 40px;
+}
+.tercerseccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.tercerh2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+.imagenes{
+    width: 230px;
+    height: 230px;
+}
+.contenedor{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #4c9791;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.tercerparte{
+    margin: 20px;
+    
+}
+
+.contenedor:hover {
+    border-color: black
+}
+.segundolorem{
+    width: 500px;
+}
+.pcontenedor{
+    font-weight: bold;
+}
+.contenedor:hover {
+    border-color:  #42ccbe;
+    color: #42ccbe;
+
+}
