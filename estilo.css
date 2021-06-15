@@ -246,3 +246,43 @@ button:hover{
     color: #42ccbe;
 
 }
+.Formulario{
+    display: flex;
+
+}
+.Contactame{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+}
+.ContactameRedes2{
+    flex-direction: column;
+    display: flex;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.Divname{
+    display: flex;
+    flex-direction: row;
+}
+
+.labelname{
+    display: flex;
+    flex-direction: column;
+}
+.Escribime{
+    width: 600px;
+    height: 700px;
+
+}
+
+
+    
+     
+
+  
+  
