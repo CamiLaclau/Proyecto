@@ -23,8 +23,11 @@ header{
 .ulheader{
     list-style: none;
     text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
 }
-a{
+.item a{
     text-decoration: none;
     color: black;
     margin: 20px;
@@ -38,26 +41,20 @@ a:active {
     box-shadow: 0px 0px 5px 1px black;
     border-radius: 20px;
 }
-ul{
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-nav{
+
+.primernav{
 margin: 50px;
 justify-content: flex-end;
 }
 .botonuno{
-    border-radius: 5px;
+    border-radius: 30px;
     border: 2px solid #2a6186;
     color: black;
     background-color: #4c9791;
-    border-radius: 6px;
-    width: 180px;
-    margin: 100;
+    padding: 10px;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
-border: none;
+
 }
 .botonuno:hover {
     background-color: #88beba;
@@ -78,18 +75,18 @@ border: none;
     font-family: 'Cormorant Garamond', serif;
     color: black;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 .botondos{
-    border-radius: 5px;
     border: 2px solid #2d6b94;
     color: black;
     background-color: rgb(96, 134, 184);
-    border-radius: 6px;
-    width: 180px;
-    margin: 100;
+    border-radius: 30px;
+    padding: 10px;
     font-size: 20px;
     font-family: 'Cormorant Garamond', serif;
-    border: none;
+    text-decoration: none;
+    
 }
 .botondos:hover{
     background-color: rgb(150, 189, 240);
@@ -205,12 +202,17 @@ button:hover{
     font-weight: bold;
     font-size: 42px;
 }
-.card2{
+.centrarcard2{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 1130px;
+}
+.card2{
+    display: flex;
     flex-direction: row;
-    background-color: #fff;
+    background-color: transparent;
     flex-wrap: wrap;
 }
 .imagenes{
@@ -225,6 +227,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     margin: 10px;
+    cursor: pointer;
     
 }
 .tercerparte{
@@ -248,18 +251,58 @@ button:hover{
 }
 .Formulario{
     display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 187, 187);
+    border-radius: 20px;
+    margin: 150px 100px;
+    
+
 
 }
 .Contactame{
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 700px;
+    width: 500px;
+    padding: 30px;
 }
+.Contactame2 h2{
+    font-weight: bold;
+    font-size: 42px;
+}
+.Contactame2 p{
+    margin-bottom: 50px;
+}
+
 .ContactameRedes2{
     flex-direction: column;
     display: flex;
+   
+}
+.ContactameRedes3{
+    list-style-type: none;
+    margin-bottom: 20px;
+    
+}
+.ContactameRedes3 i{
+     margin-right: 10px;
+}
+.iconosredes2 i{
+    color: teal;
+    padding: 10px;
+}
 
+.ContactameRedes a{
+    color: black;
+    text-decoration: none;   
+}
+.iconosredes2:hover{
+    color: teal;  
+}
+.iconosredes2:hover i{
+    background-color: teal;
+    border-radius: 100%;
+    color: white
 }
 form{
     display: flex;
@@ -273,12 +316,121 @@ form{
 .labelname{
     display: flex;
     flex-direction: column;
+    margin: 10px;
+    font-weight: 100;
+}
+.Escribime label{
+    font-weight: 50px;
 }
 .Escribime{
-    width: 600px;
-    height: 700px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 30px;
+    font-size: 22px;
+}
+.Escribime h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+.Escribime label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Divname{
+    text-align: left;
+}
+
+footer{
+    height: 300px;
+    background-color: #4c9791;
+}
+.segundonav{
+    display: flex;
+    justify-content: center;
+    
+}
+.ulfooter{
+    list-style-type: none;
+    display: flex;
+    margin-top: 60px;
+}
+.segundonav a{
+    text-decoration: none;
+    color:white
+}
+.lifooter{
+    margin: 10px;
+    font-size: 17px;
+    
+}
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid #f6f7fb
+}
+input[type="Email"]{
+    width: 80%;
+    height: 30px;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 20px;
+    border: 1px solid #f6f7fb
 
 }
+textarea{
+    width: 100%;
+    height: 60%;
+    background-color: #f6f7fb;
+    color: grey;
+    border-radius: 15px;
+    border: 1px solid #f6f7fb
+
+}
+.botonformulario{
+    border-radius: 30px;
+    border: 2px solid #2a6186;
+    color: black;
+    background-color: #4c9791;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    width: 150px;
+}
+.botonformulario:hover{
+    background-color: #6db3ad;
+}
+.footerredes{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerredes2{
+    margin: 10px;
+}
+.footerredes2 i{
+    color:rgb(96, 133, 202);
+    background-color:white;
+    border-radius: 50%;
+   padding: 10px;
+}
+.footerredes2 :hover{
+    background:rgb(96, 133, 202);
+    color: white;
+}
+.hechoconamor p{
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+    
+
+
 
 
     
